@@ -20,7 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} w-screen h-screen overflow-hidden antialiased`}
+        className={`${inter.variable} 
+        `}
       >
         {children}
       </body>
